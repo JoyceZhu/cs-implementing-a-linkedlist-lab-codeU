@@ -91,7 +91,6 @@ public class MyLinkedList<E> implements List<E> {
 		{
 			Node newHead = new Node(element, head);
 			head = newHead;
-            size++;
 			return;
 		}
 		int current_node = 0;
